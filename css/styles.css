@@ -299,6 +299,7 @@ img {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 .team-name {
     text-align: center;
@@ -322,13 +323,28 @@ img {
 }
 
 .section-team-point {
-    height: 368px;
+    height: 428px;
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
 }
 
 .section-team-point:nth-child(4n) {
     margin-right: 0;
+}
+.masters-social-list {
+    display: flex;
+    justify-content: center;
+}
+.masters-social-item + .masters-social-item {
+    margin-left: 10px;
+}
+.master-social-link {
+    display: block;
+    height: 44px;
+    width: 44px;
+    background-color: #212121;
+    border-radius: 50%;
+    
 }
 
 /*          portfoll         */      
