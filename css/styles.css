@@ -221,8 +221,6 @@ fill: var(--primary-text-color);
 }
 
 
-
-
 /*        section-criteria        */
 
 
@@ -257,6 +255,7 @@ fill: var(--primary-text-color);
 }
 .section-criteria-feature-listread {
     display: flex;
+    justify-content: center;
 }
 .section-criteria-point {
     height: 251px;
@@ -266,6 +265,14 @@ fill: var(--primary-text-color);
 .section-criteria-point:nth-child(4n){
     margin-right: 0;
 }
+
+.section-criteria-icon {
+    height: 120px;
+    width: 270px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
+
 
 /*        section-work        */
 
