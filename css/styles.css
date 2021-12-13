@@ -209,7 +209,7 @@ fill: var(--primary-text-color);
 .section-hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    width: 1600px;
+    max-width: 1600px;
     height: 600px;
     background-color:#C4C4C4;
     background-image: linear-gradient(
