@@ -176,7 +176,8 @@ img {
 .header-link-contakt {
 fill: var(--primary-text-color);
 }
-.header-link-contakt:hover {
+.header-link-contakt:hover,
+.header-link-contakt:focus {
     fill:var(--accent-color);
 }
 
@@ -370,6 +371,7 @@ fill: var(--primary-text-color);
     display: flex;
 }
 .section-team-point {
+    background-color: var(--background-color);
     height: 428px;
     width: calc((100% - 90px) / 4);
     margin-right: 30px;
@@ -403,7 +405,8 @@ fill: var(--primary-text-color);
 .master-social-link {
 fill: var(--color-icon-primary);
 }
-.master-social-link:hover {
+.master-social-link:hover,
+.master-social-link:focus {
     background-color: var(--accent-color);
     fill:var(--background-color);
 }
@@ -457,13 +460,16 @@ fill: var(--color-icon-primary);
     background-color: var(--fon-background-color);
     fill: var(--color-icon-primary);
     border: 1px solid var(--color-icon-primary);
-
 }
-.regular-clients-link:hover {
+.regular-clients-link:hover,
+.regular-clients-link:focus {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
-
+.regular-clients-icon {
+    height: 92px;
+    width: 170px;
+}
 
 
 
@@ -487,6 +493,9 @@ fill: var(--color-icon-primary);
     line-height: 1.62;
     letter-spacing: 0.03em;
     font-family: inherit;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+                0px 1px 2px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfoll-btn:hover,
 .portfoll-btn:focus {
@@ -522,8 +531,6 @@ fill: var(--color-icon-primary);
 }
 .portfoll-point-ad:hover,
 .portfoll-point-ad:focus {
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
     box-shadow: 
     0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
@@ -670,7 +677,8 @@ fill: var(--color-icon-primary);
 .footer-social-link {
 fill: var(--background-color);
 }
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background-color: var(--accent-color);
 }
 .rightpos {
