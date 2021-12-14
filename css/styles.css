@@ -206,6 +206,7 @@ fill: var(--primary-text-color);
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-transform: inherit;
+    border:none;
 }
 .section-hero {
     padding-top: 200px;
@@ -231,10 +232,7 @@ fill: var(--primary-text-color);
     margin-right: auto;
 }
 
-/*
-затемнениеbackground: rgba(47, 48, 58, 0.4);
-фон если фото не загр background: #C4C4C4;
-*/
+
 /*        section-criteria        */
 
 
@@ -257,7 +255,7 @@ fill: var(--primary-text-color);
     height: 75px;
 }
 .section-criteria {
-    background-color: var(--fon-background-color);
+    background-color: var(--background-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -279,12 +277,16 @@ fill: var(--primary-text-color);
 .section-criteria-point:nth-child(4n){
     margin-right: 0;
 }
-
-.section-criteria-icon {
+.section-criteria-div {
     height: 120px;
     width: 270px;
-    padding: 25px 100px;
+    padding: 25px 102px;
+    background-color: var(--background-color);
     margin-bottom: 30px;
+}
+.section-criteria-icon {
+    height: 70px;
+    width: 70px;
 }
 
 
@@ -300,7 +302,7 @@ fill: var(--primary-text-color);
     margin-bottom: 50px;
 }
 .section-work {
-    background-color: var(--fon-background-color);
+    background-color: var(--background-color);
     padding-top: 0px;
     padding-bottom: 94px;
 }
@@ -357,7 +359,7 @@ fill: var(--primary-text-color);
     padding-bottom: 30px;
 }
 .section-team {
-    background-color: var(--fon-background-color-two);
+    background-color: var(--background-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -415,7 +417,7 @@ fill: var(--color-icon-primary);
 /*    Постоянные клиенты     */
 
 .section-regular-clients {
-    background-color: var(--fon-background-color);
+    background-color: var(--background-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -457,7 +459,7 @@ fill: var(--color-icon-primary);
 }
 
 .regular-clients-link {
-    background-color: var(--fon-background-color);
+    background-color: var(--background-color);
     fill: var(--color-icon-primary);
     border: 1px solid var(--color-icon-primary);
 }
@@ -493,14 +495,13 @@ fill: var(--color-icon-primary);
     line-height: 1.62;
     letter-spacing: 0.03em;
     font-family: inherit;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-                0px 1px 2px rgba(0, 0, 0, 0.08), 
-                0px 2px 2px rgba(0, 0, 0, 0.12);
+    border:none;
 }
 .portfoll-btn:hover,
 .portfoll-btn:focus {
     color: var(--background-color);
     background-color: var(--accent-color);
+    border:none;
 }
 .portfoll-point:hover,
 .portfoll-point:focus {
